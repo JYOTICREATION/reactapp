@@ -3,7 +3,7 @@ var app = express();
 var fs = require("fs");
 
 app.get("/getUsers", function (req, res) {
-  fs.readFile(__dirname + "/" + "movielist.json", "utf8", function (err, data) {
+  fs.readFile(__dirname + "/" + "config.json", "utf8", function (err, data) {
     console.log(data);
     res.end(data);
   });
@@ -19,7 +19,7 @@ var movie = {
 };
 
 app.post("/addMovie", function (req, res) {
-  fs.readFile(__dirname + "/" + "movielist.json", "utf8", function (err, data) {
+  fs.readFile(__dirname + "/" + "config.json", "utf8", function (err, data) {
     data = JSON.parse(data);
 
     data["movie5"] = movie["movie5"];
@@ -29,7 +29,7 @@ app.post("/addMovie", function (req, res) {
 });
 
 app.get("/:id", function (req, res) {
-  fs.readFile(__dirname + "/" + "movielist.json", "utf8", function (err, data) {
+  fs.readFile(__dirname + "/" + "config.json", "utf8", function (err, data) {
     var movies = JSON.parse(data);
     var movie = movies["user" + req.params.id];
     console.log(movie);
