@@ -1,74 +1,29 @@
 {
-  "movieDetail": [
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 2,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 3,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 4,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    },
-    {
-      "id": 1,
-      "img": "ddlj",
-      "name": "ddlj",
-      "rating": 4,
-      "rel_date": "4 - Oct - 1999"
-    }
-  ]
+  "movie1": {
+    "id": 1,
+    "name": "Sholay",
+    "rating": 4,
+    "rel_date": "4 - Oct - 1999"
+  },
+
+  "movie2": {
+    "id": 1,
+    "name": "Sholay",
+    "rating": 4,
+    "rel_date": "4 - Oct - 1999"
+  },
+
+  "movie3": {
+    "id": 1,
+    "name": "Sholay",
+    "rating": 4,
+    "rel_date": "4 - Oct - 1999"
+  },
+
+  "movie4": {
+    "id": 1,
+    "name": "Sholay",
+    "rating": 4,
+    "rel_date": "4 - Oct - 1999"
+  }
 }
